@@ -97,6 +97,7 @@ public class AesUtils extends Frame
     {
         WindowMonitor() {}
 
+        @Override
         public void windowClosing(WindowEvent e)
         {
             AesUtils.this.setVisible(false);
